@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BMP_BasicClone-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -745,7 +746,7 @@ Wire Wire Line
 Text Notes 8950 3000 1    60   ~ 12
 VOLUME
 $Comp
-L BARREL_JACK J1
+L BARREL_JACK-RESCUE-BMP_BasicClone J1
 U 1 1 5A2DF800
 P 1650 1850
 F 0 "J1" H 1650 2045 50  0000 C CNN
