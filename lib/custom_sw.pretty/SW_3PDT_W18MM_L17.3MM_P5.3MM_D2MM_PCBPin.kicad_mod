@@ -1,4 +1,4 @@
-(module SW_3PDT_W18MM_L17.3MM_P5.3MM_D2MM (layer F.Cu) (tedit 599E0CEC)
+(module SW_3PDT_W18MM_L17.3MM_P5.3MM_D2MM_PCBPin (layer F.Cu) (tedit 599E0CEC)
   (fp_text reference SW_MAIN1 (at 0 11.176) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

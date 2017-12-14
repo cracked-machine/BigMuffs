@@ -1,4 +1,4 @@
-update=12-12-2017 7:10:04 PM
+update=14-12-2017 6:11:07 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -60,7 +70,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=switches
-LibName32=/Users/GB080220/workspace/circuits/BigMuffs/lib/socket_custom
-LibName33=/Users/GB080220/workspace/circuits/BigMuffs/lib/sw_custom
-LibName34=H:/Workspace/ElectronicsProjects/BigMuffs/lib/socket_custom
-LibName35=H:/Workspace/ElectronicsProjects/BigMuffs/lib/sw_custom
+LibName32=H:/Workspace/ElectronicsProjects/EffectsPedals/BigMuffs/lib/socket_custom
+LibName33=H:/Workspace/ElectronicsProjects/EffectsPedals/BigMuffs/lib/sw_custom

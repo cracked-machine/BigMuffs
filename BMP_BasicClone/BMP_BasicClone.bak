@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BMP_BasicClone-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,8 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:socket_custom
-LIBS:sw_custom
 LIBS:BMP_BasicClone-cache
 EELAYER 25 0
 EELAYER END
@@ -745,7 +744,7 @@ Wire Wire Line
 Text Notes 8950 3000 1    60   ~ 12
 VOLUME
 $Comp
-L BARREL_JACK J1
+L BARREL_JACK-RESCUE-BMP_BasicClone J1
 U 1 1 5A2DF800
 P 1650 1850
 F 0 "J1" H 1650 2045 50  0000 C CNN
@@ -881,7 +880,7 @@ L R R1
 U 1 1 5A2E81A3
 P 2850 2900
 F 0 "R1" V 2930 2900 50  0000 C CNN
-F 1 "R" V 2850 2900 50  0000 C CNN
+F 1 "1k" V 2850 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" V 2780 2900 50  0001 C CNN
 F 3 "" H 2850 2900 50  0001 C CNN
 	1    2850 2900
