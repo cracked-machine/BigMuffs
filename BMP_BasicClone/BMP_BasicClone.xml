@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>H:/Workspace/ElectronicsProjects/EffectsPedals/BigMuffs/BMP_BasicClone/BMP_BasicClone.sch</source>
-    <date>13-12-2017 8:33:49 AM</date>
+    <date>15-12-2017 12:28:59 AM</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -329,8 +329,8 @@
     </comp>
     <comp ref="SW_EN1">
       <value>SW_3PDT_on_on</value>
-      <footprint>custom_sw:SW_3PDT_W18MM_L17.3MM_P5.3MM_D2MM</footprint>
-      <libsource lib="BMP_BasicClone-cache" part="SW_3PDT_on_on"/>
+      <footprint>custom_sw:SW_3PDT_W18MM_L17.3MM_P5.3MM_D2MM_SolderLugs</footprint>
+      <libsource lib="sw_custom" part="SW_3PDT_on_on"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A2E01EA</tstamp>
     </comp>
@@ -344,19 +344,19 @@
     <comp ref="J_IN1">
       <value>JACK__MONO_2P_NC</value>
       <footprint>custom_sockets:JackSocket_Mono_PCB</footprint>
-      <libsource lib="BMP_BasicClone-cache" part="JACK__MONO_2P_NC"/>
+      <libsource lib="socket_custom" part="JACK__MONO_2P_NC"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A2E0A2D</tstamp>
     </comp>
     <comp ref="J_OUT1">
       <value>JACK__MONO_2P_NC</value>
       <footprint>custom_sockets:JackSocket_Mono_PCB</footprint>
-      <libsource lib="BMP_BasicClone-cache" part="JACK__MONO_2P_NC"/>
+      <libsource lib="socket_custom" part="JACK__MONO_2P_NC"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A2E0B11</tstamp>
     </comp>
     <comp ref="R1">
-      <value>R</value>
+      <value>1k</value>
       <footprint>Resistors_SMD:R_0402_NoSilk</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -467,7 +467,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="BMP_BasicClone-cache" part="JACK__MONO_2P_NC">
+    <libpart lib="socket_custom" part="JACK__MONO_2P_NC">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">JACK__MONO_2P_NC</field>
@@ -537,7 +537,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="BMP_BasicClone-cache" part="SW_3PDT_on_on">
+    <libpart lib="sw_custom" part="SW_3PDT_on_on">
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SW_3PDT_on_on</field>
@@ -556,14 +556,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="BMP_BasicClone-cache">
-      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\BigMuffs\BMP_BasicClone\BMP_BasicClone-cache.lib</uri>
+    <library logical="BMP_BasicClone-rescue">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\BigMuffs\BMP_BasicClone\BMP_BasicClone-rescue.lib</uri>
     </library>
     <library logical="device">
       <uri>H:\Programs\KiCad\share\kicad\library\device.lib</uri>
     </library>
-    <library logical="BMP_BasicClone-rescue">
-      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\BigMuffs\BMP_BasicClone\BMP_BasicClone-rescue.lib</uri>
+    <library logical="socket_custom">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\BigMuffs\lib\socket_custom.lib</uri>
+    </library>
+    <library logical="sw_custom">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\BigMuffs\lib\sw_custom.lib</uri>
     </library>
     <library logical="transistors">
       <uri>H:\Programs\KiCad\share\kicad\library\transistors.lib</uri>
