@@ -1,4 +1,4 @@
-update=14-12-2017 6:11:07 AM
+update=Friday, 15 December 2017 'pmt' 16:24:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../../TremoloPedals/EATremoloSMD/lib
 [eeschema/libraries]
 LibName1=BMP_BasicClone-rescue
 LibName2=power
@@ -70,5 +70,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=switches
-LibName32=H:/Workspace/ElectronicsProjects/EffectsPedals/BigMuffs/lib/socket_custom
-LibName33=H:/Workspace/ElectronicsProjects/EffectsPedals/BigMuffs/lib/sw_custom
+LibName32=sw_custom
+LibName33=socket_custom
