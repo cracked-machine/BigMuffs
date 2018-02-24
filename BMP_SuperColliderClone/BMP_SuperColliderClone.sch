@@ -43,9 +43,9 @@ Date ""
 Rev ""
 Comp ""
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Revision 1"
+Comment3 "Original Design by Earthbound Audio"
+Comment4 "SuperCollider (Big Muff Clone)"
 $EndDescr
 $Comp
 L R R2
