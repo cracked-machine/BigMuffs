@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="formatter.xsl"?>
 <export version="D">
   <design>
     <source>H:/Workspace/ElectronicsProjects/EffectsPedals/BigMuffs/BMP_SuperColliderClone/BMP_SuperColliderClone.sch</source>
